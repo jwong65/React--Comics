@@ -3,23 +3,18 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+    <main>
+     <h1
+          style={{
+            color: "#FEE001",
+            fontFamily: "Luminari, fantasy",
+            fontSize: 50
+          }}
         >
-          Learn React
-        </a>
-      </header>
-    </div>
+          Welcome to Comics Galore!
+        </h1>
+        <UserInterface />
+    </main>
   );
 }
-
 export default App;
