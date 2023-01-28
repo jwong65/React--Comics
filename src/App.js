@@ -1,5 +1,5 @@
-
 import './App.css';
+import UserInterface from './components/UserInterface.js'
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
         >
           Welcome to Comics Galore!
         </h1>
-        <UserInterface />
+        {/* <UserInterface /> */}
     </main>
   );
 }
