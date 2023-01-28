@@ -17,16 +17,18 @@ function App() {
 
   return (
     <main>
-     <h1
-          style={{
-            color: "#FEE001",
-            fontFamily: "Luminari, fantasy",
-            fontSize: 50
-          }}
-        >
-          Welcome to Comics Galore!
-        </h1>
-        <UserInterface />
+      <StylesContext.Provider value={styleButton}> 
+        <h1
+            style={{
+              color: "#FEE001",
+              fontFamily: "Luminari, fantasy",
+              fontSize: 50
+            }}
+          >
+            Welcome to Comics Galore!
+          </h1>
+          <UserInterface />
+        </StylesContext.Provider>
     </main>
   );
 }
