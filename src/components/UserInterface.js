@@ -1,4 +1,6 @@
 import React from 'react'
+import CollectorButton from './CollectorButton'
+import SubmitForm from './SubmitForm'
 
 export default function UserInterface() {
   return (
