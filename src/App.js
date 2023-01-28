@@ -1,6 +1,8 @@
 import './App.css';
 import UserInterface from './components/UserInterface.js'
 
+import StylesContext from './components/StylesContext';
+
 function App() {
   const styleButton ={
     background: "#1ECD97",
@@ -12,7 +14,7 @@ function App() {
     border: "2px solid #1ECD97",
     borderRadius: 15
   }
-  
+
   return (
     <main>
      <h1
@@ -24,7 +26,7 @@ function App() {
         >
           Welcome to Comics Galore!
         </h1>
-        {/* <UserInterface /> */}
+        <UserInterface />
     </main>
   );
 }
